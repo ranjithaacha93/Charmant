@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <title> Charmant </title>
+</head>
+<body>
+    <div class="Navbar">
+        <div class="logo">
+            <div class="logo1"></div>
+            <div class="logo2"></div>
+            <div class="logo3"></div>
+            <div class="logo4"></div>
+            <div class="logo5"></div>
+            <a href="./index.html"> CHARMANT </a>
+        </div>
+        <div class="menu-content">
+            <a href="#"> Shop </a>
+            <a href="#"> Contact </a>
+            <i class="fa-solid fa-bag-shopping" style="color: #ffffff;" onclick="sild()"></i>
+        </div>
+        <div id="menu">
+            <h2> Your Card </h2>
+            <div>
+                <h1> FRAMESHIP </h1>
+            </div>
+            <h1 style="color: white;margin-top: 25px;text-align: center;"> UNLOCK ECOMMERCE FUNCTIONALLY ON YOUR
+                WEBSITE! </h1>
+            <p> Upgrade your Frameship account to unlock shopify ecommerce functionality on your live website </p>
+            <button class="btn1"> UPGRADE YOUR SITE </button>
+            <h2> Subtotal </h2>
+            <button class="btn2"> Checkout </button>
+        </div>
+    </div>
+
+    <!-- =========================================================== -->
+    <!----------------------------Home--------------------------------->
+
+    <div class="home" id="home">
+        <div>
+            <h1>
+                <span>J</span><span>E</span><span>W</span><span>E</span><span>L</span><span>R</span><span>I</span><span>E</span><span>S</span>
+
+                <span>T</span><span>H</span><span>A</span><span>T</span>
+                &nbsp;&nbsp;<br>
+                <span>R</span><span>A</span><span>D</span><span>I</span><span>A</span><span>T</span><span>E</span><span>S</span>
+
+                <span>C</span><span>H</span><span>A</span><span>R</span><span>M</span>
+            </h1>
+            <p data-aos="fade-down"> Discover elegant, one-of-a-Kind jewelry crafted to elevate your everyday moments
+                and unforgettable
+                occasions. </p>
+            <button data-aos="fade-down"> SHOP NOW </button>
+        </div>
+    </div>
+
+    <!-- ==================================================== -->
+    <!-----------------------Second-Page------------------------>
+
+    <div class="second-page" id="second">
+        <div>
+            <i class="fa-solid fa-rotate-right"></i>
+            <p> Very Fast Shipping </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-shield-cat"></i>
+            <p> Secure Payments </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-arrows-spin"></i>
+            <p> Hassle-Free Returns </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-gift"></i>
+            <p> Gift-Ready <br> Packaging</p>
+        </div>
+    </div>
+
+    <!-- ==================================================== -->
+    <!----------------------Card-Showing--------------------->
+
+    <div class="card-showing" id="card-showing">
+        <div class="card-showing-top">
+            <h1 data-aos="fade-down"> Our Signature <br> Collections </h1>
+            <p data-aos="fade-down"> Whether you seek elegant simplicity for everyday wear or striking designs for
+                life’s grand occasions, our collections are crafted to shine with you. </p>
+        </div>
+        <div class="card-showing-bottom">
+            <div class="card" id="firstcard">
+                <div><img src="./images/card-1.png" alt="img"></div>
+                <h3> Minimalist Elegance </h3>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="card" id="secondcard">
+                <div><img src="./images/card-2.png" alt="img"></div>
+                <h3> Bridal Bliss </h2>
+                    <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="card" id="thedcard">
+                <div><img src="./images/card-3.png" alt=""></div>
+                <h3> Timeless Classics </h3>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!----------------------Small-content----------------------->
+
+    <div class="small-content" id="small">
+        <div class="small-content-in">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <img src="./images/Emily Roberts - CEO.png" alt="">
+            <h1 style="font-weight: 100;"> "At Charmant, we craft jewelry to be more than an accessory—it’s a keepsake
+                of moments, love, and
+                individuality, blending timeless craftsmanship with meaningful design." </h1>
+        </div>
+    </div>
+
+    <!-- ======================================================= -->
+    <!-----------------------Product------------------------->
+
+    <div class="product" id="product">
+        <div class="product-top">
+            <h1> Newest Items </h1>
+            <button> View All <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+        <div class="product-bottom">
+            <div class="product-card" data-aos="zoom-out" onclick="item('one')">
+                <div>
+                    <img src="./images/jouil-1.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Delicate Knot Bracelet </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('tow')">
+                <div>
+                    <img src="./images/jouil-2.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Charm Link Bracelet </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('three')">
+                <div>
+                    <img src="./images/jouil-3.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Teardrop Dangle Earrings </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('fore')">
+                <div>
+                    <img src="./images/jouil-4.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Diamond Teardrop Necklace </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('five')">
+                <div>
+                    <img src="./images/jouil-5.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Delicate Knot Bracelet </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('six')">
+                <div>
+                    <img src="./images/jouil-6.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Sphere Band Ring </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('saven')">
+                <div>
+                    <img src="./images/jouil-7.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Classic Chain Necklace </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="product-card" data-aos="zoom-out" onclick="item('eaite')">
+                <div>
+                    <img src="./images/jouil-5.png" alt="images">
+                    <button>$1.1k</button>
+                </div>
+                <p> Petite Infinity Ring </p>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- ========================================================== -->
+    <!--------------------------------------Clicking--------------------------------->
+    <!-- ========================================================== -->
+    <!-- ========================================================================== -->
+
+    <div class="jouls">
+        <div class="jouil-home">
+            <h1> Minimalist <br> Elegance</h1>
+        </div>
+        <div class="content">
+            <div class="content-in">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <p> Simplicity redefined—Minimalist Elegance celebrates the beauty of understated design. This
+                    collection is crafted for those who appreciate the quiet sophistication of clean lines, subtle
+                    details, and timeless pieces that enhance everyday style. Each item is designed to complement any
+                    look, whether worn alone for effortless refinement or layered for a modern twist. Perfect for those
+                    who value quality and versatility, Minimalist Elegance offers jewelry that speaks volumes in its
+                    simplicity. </p>
+            </div>
+        </div>
+
+        <!-- =============================================== -->
+        <!-----------------------Product-cards----------------->
+
+        <div class="product" id="show">
+            <div class="product-top">
+                <h1> Newest Items </h1>
+                <button> View All <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+            <div class="product-bottom">
+                <div class="product-card" data-aos="zoom-out" onclick="item('one')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="product-card" data-aos="zoom-out" onclick="item('tow')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Charm Link Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="product-card" data-aos="zoom-out" onclick="item('three')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Teardrop Dangle Earrings </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out" onclick="item('fore')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Diamond Teardrop Necklace </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out" onclick="item('five')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out" onclick="item('six')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Sphere Band Ring </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out" onclick="item('savan')">
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Classic Chain Necklace </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out" >
+                    <div>
+                        <img class="card-img" src="./images/placeholder.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Petite Infinity Ring </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================== -->
+    <!-- ------------------------------------------------- -->
+    <!-- =========================================================== -->
+    <!-----------------------------Only jouils------------------------->
+
+    <div class="show-jouls" id="visebel">
+        <div class="show-home">
+            <div class="show-left">
+                <a href="#"> Shop </a>
+                <a href="#"> Bridal Biss </a>
+                <a href="#"> Category </a>
+                <h1> Diamond Teardrop <br> Necklace </h1>
+                <div class="show-price">
+                    <div>
+                        <p> $3,600 </p>
+                        <p style="text-decoration: line-through;color: gray;"> $4,300 </p>
+                    </div>
+                    <div>
+                        <h4 style="color: gray;"> Upgrade to show inventory </h4>
+                    </div>
+                </div>
+                <div class="count">
+                    <p id="decrease" style="cursor: pointer;"> - </p>
+                    <span id="number" style="font-size: 25px;">1</span>
+                    <p id="increase" style="cursor: pointer;"> + </p>
+                </div>
+                <div class="add-card">
+                    <button> add to card </button>
+                    <button> Buy Now </button>
+                </div>
+            </div>
+            <div class="show-right">
+                <div class="img-showkesh-1">
+                    <img src="./images/jouil-1.png" alt="">
+                </div>
+                <div class="img-shokwesh-2">
+                    <img src="./images/jouil-1.png" alt="">
+                </div>
+                <div class="img-shokwesh-3">
+                    <img src="./images/jouil-1.png" alt="">
+                </div>
+                <div class="img-shokwesh-4">
+                    <img src="./images/jouil-1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- ================================================ -->
+        <!-----------------------information-------------------->
+
+        <div class="information">
+            <div class="information-head">
+                <div onclick="change('description')" id="color-1">
+                    <p> Description </p>
+                </div>
+                <div onclick="change('delivery')" id="color-2">
+                    <p> Delivery </p>
+                </div>
+                <div onclick="change('return')" id="color-3">
+                    <p> Return </p>
+                </div>
+            </div>
+            <div class="information-content">
+                <p id="changecontent">
+                    Delicately crafted to evoke the beauty of blooming roses, these soft rosebud-inspired studs are the
+                    epitome of romantic elegance. Perfect for adding a graceful touch to bridal ensembles, these
+                    earrings capture the timeless charm of floral motifs while maintaining a modern, sophisticated
+                    allure. Their petite size and intricate design make them versatile enough for weddings,
+                    anniversaries, or any occasion that calls for a hint of romance. Whether gifted as a meaningful
+                    token of love or worn as a personal statement of style, these studs offer a balance of softness and
+                    elegance.
+                </p>
+            </div>
+        </div>
+
+        <!-- =================================================== -->
+        <!-- =================================================== -->
+
+        <div class="product" >
+            <div class="product-top">
+                <h1> Other Earrings </h1>
+            </div>
+            <div class="product-bottom">
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-1.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-2.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Charm Link Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-3.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Teardrop Dangle Earrings </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-4.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Diamond Teardrop Necklace </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-5.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-6.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-7.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="product-card" data-aos="zoom-out">
+                    <div>
+                        <img class="card-img" src="./images/jouil-8.png" alt="product image">
+                        <button>$1.1k</button>
+                    </div>
+                    <p> Delicate Knot Bracelet </p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ===================================================== -->
+    <!--------------------------Poster-div----------------------->
+
+    <div class="poster">
+        <div class="poster-top">
+            <h1> HAPPY CLIENTS </h1>
+        </div>
+        <div class="poster-bottom">
+            <div class="img-top-div">
+                <img src="./images/poster-1.png" alt="">
+                <img src="./images/poster-2.png" alt="">
+                <img src="./images/poster-3.png" alt="">
+                <img src="./images/poster-4.png" alt="">
+            </div>
+            <div class="img-bottom-div">
+                <img src="./images/poster-5.png" alt="">
+                <img src="./images/poster-6.png" alt="">
+                <img src="./images/poster-7.png" alt="">
+                <img src="./images/poster-8.png" alt="">
+            </div>
+            <div class="poster-content">
+                <div class="poster-content-in">
+                    <div class="carner1 carner"></div>
+                    <div class="carner2 carner"></div>
+                    <div class="carner3 carner"></div>
+                    <div class="carner4 carner"></div>
+                    <div class="poster-slid" id="poster-slid">
+                        <p>"Charmant's delicate designs perfectly match my minimalist style. The Linear Drop Earrings
+                            are my absolute favorite—| get compliments every time l wear them. Stunning craftsWanship!"
+                        </p>
+                        <p> Emmal .</p>
+                    </div>
+                    <div class="poster-slid" id="poster-slid">
+                        <p> "I was searching for a piece that felt personal and timeless, and Charmant delivered beyond
+                            my expectations. The Infinity Ring has become my everyday staple—it's elegal, understated,
+                            and beautifully crafted." </p>
+                        <p> Sophia M.</p>
+                    </div>
+                    <div class="poster-slid" id="poster-slid">
+                        <p> "The pearl necklace I wore on my wedding day from Charmant made me feel like the most
+                            beautiful version of myself. It was the perfect touch of elegance, and now it's a chalished
+                            keepsake of my special day." </p>
+                        <p> Clara J.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================================================= -->
+    <!------------------------------Input-box---------------------------->
+
+    <div class="input-box">
+        <img src="./images/ring.png" alt="img">
+        <h1> NEWSLETTER </h1>
+        <p> Insight, inspiration, and exclusives. </p>
+        <input type="text" placeholder="jane@fram.com">
+        <button> Submit </button>
+    </div>
+
+    <!-- =========================================================== -->
+    <!-----------------------------fotter------------------------------>
+
+    <div class="fotter">
+        <div class="fotter-top">
+            <div>
+                <h2> Contact </h3>
+                    <a href="#"> No 16, 1st floor, Sarathy Nagar, Velachery, Chennai 600 042. </a>
+                    <a href="#"> code99itacademy@gmail.com </a>
+                    <a href="#"> 6374510754 </a>
+                    <a href="#"> Contact </a>
+            </div>
+            <div>
+                <h2> Menu </h2>
+                <a href="#"> Shop </a>
+                <a href="#"> Minimalist Elegance </a>
+                <a href="#"> Bridal Bliss </a>
+                <a href="#"> Timeless Classics </a>
+            </div>
+            <div>
+                <h2> Useful </h2>
+                <a href="#"> Privacy Policy </a>
+                <a href="#"> Cookie Policy </a>
+                <a href="#"> Terms and Conditions </a>
+                <a href="#"> Delivery and Return </a>
+            </div>
+            <div>
+                <h2> Follows Us </h2>
+                <a href="#"> X(Twitter) </a>
+                <a href="#"> Instagerm </a>
+                <a href="#"> Linkedin </a>
+                <a href="#"> Youtube </a>
+            </div>
+        </div>
+        <div class="fotter-bottom">
+            <img src="./images/fotter.jpeg" alt="">
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
